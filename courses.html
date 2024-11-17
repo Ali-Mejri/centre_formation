@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>eLEARNING</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="courses.html" class="nav-item nav-link active">Courses</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="login/login.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">S'inscrire<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Cours</h1>
+                 
+                </div>
+            </div>
+        </div>
+    </div>>
+    <!-- Header End -->
+
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Catégories</h6>
+                <h1 class="mb-5">Catégories de Cours</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Développement Web</h5>
+                                    <small class="text-primary">49 Cours</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Conception Graphique</h5>
+                                    <small class="text-primary">49 Cours</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Montage Vidéo</h5>
+                                    <small class="text-primary">49 Cours</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Marketing en Ligne</h5>
+                            <small class="text-primary">49 Cours</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Cours</h6>
+                <h1 class="mb-5">Nos Offres de Formation</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Premier Cours -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-1.jpg" alt="Formation en Développement Web">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">En savoir plus</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">S'inscrire</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">149 DT</h3>
+                            <span class="text-danger"><small><del>199 DT</del></small> <strong>-25% Offert !</strong></span>
+                            <div class="mb-3 mt-2">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123 avis)</small>
+                            </div>
+                            <h5 class="mb-4">Formation en Développement Web pour Débutants</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Amine Mansouri</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>20 Heures</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>50 Étudiants</small>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Deuxième Cours -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-2.jpg" alt="Formation Java/Spring Boot">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">En savoir plus</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">S'inscrire</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">199 DT</h3>
+                            <span class="text-danger"><small><del>249 DT</del></small> <strong>-20% Offert !</strong></span>
+                            <div class="mb-3 mt-2">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(98 avis)</small>
+                            </div>
+                            <h5 class="mb-4">Formation Java & Spring Boot</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Sara Trabelsi</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>30 Heures</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>40 Étudiants</small>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Troisième Cours -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-3.jpg" alt="Formation Angular Avancée">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">En savoir plus</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">S'inscrire</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">179 DT</h3>
+                            <span class="text-danger"><small><del>229 DT</del></small> <strong>-22% Offert !</strong></span>
+                            <div class="mb-3 mt-2">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star-half-alt text-primary"></small>
+                                <small>(110 avis)</small>
+                            </div>
+                            <h5 class="mb-4">Formation Angular Avancée</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Yassine Mejri</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>25 Heures</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>35 Étudiants</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Course Grid -->
+<div class="container my-5">
+    <div class="row g-4" id="course-grid">
+        <!-- Data Science Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="data-science">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/about.jpg" class="card-img-top" alt="Data Science Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Data Science</h5>
+                    <p class="card-text">Apprenez les concepts fondamentaux de la science des données et la manipulation de grandes quantités de données.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">249 DT</span>
+                        <span class="text-muted"><del>299 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Mohamed Ben Ali</span>
+                    <span><i class="fa fa-clock text-primary"></i> 40 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Python Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="python">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/4.jpg" class="card-img-top" alt="Python Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Python Débutant</h5>
+                    <p class="card-text">Initiez-vous à la programmation avec Python, un langage polyvalent et populaire pour le développement et l'analyse de données.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">189 DT</span>
+                        <span class="text-muted"><del>239 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Ali Messaoudi</span>
+                    <span><i class="fa fa-clock text-primary"></i> 35 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Digital Marketing Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="digital-marketing">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/2.avif" class="card-img-top" alt="Digital Marketing Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Marketing Digital</h5>
+                    <p class="card-text">Explorez les stratégies de marketing digital, y compris la publicité sur les réseaux sociaux, le SEO, et l'email marketing.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">229 DT</span>
+                        <span class="text-muted"><del>299 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Rania Ben Hassen</span>
+                    <span><i class="fa fa-clock text-primary"></i> 50 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Web Development Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="web-development">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/3.jpg" class="card-img-top" alt="Web Development Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Développement Web</h5>
+                    <p class="card-text">Apprenez à créer des sites web dynamiques avec HTML, CSS, JavaScript et PHP.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">279 DT</span>
+                        <span class="text-muted"><del>319 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Karim Jaziri</span>
+                    <span><i class="fa fa-clock text-primary"></i> 60 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Graphic Design Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="graphic-design">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/5.avif" class="card-img-top" alt="Graphic Design Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Design Graphique</h5>
+                    <p class="card-text">Apprenez les principes du design graphique, la création d'illustrations, de logos, et de maquettes avec des outils professionnels.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">199 DT</span>
+                        <span class="text-muted"><del>249 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Lila Bouchareb</span>
+                    <span><i class="fa fa-clock text-primary"></i> 45 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile App Development Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="mobile-app">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/6.jpg" class="card-img-top" alt="Mobile App Development Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Développement d'Applications Mobiles</h5>
+                    <p class="card-text">Créez des applications mobiles avec React Native, apprenez à développer pour iOS et Android.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">299 DT</span>
+                        <span class="text-muted"><del>349 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Walid Cherif</span>
+                    <span><i class="fa fa-clock text-primary"></i> 80 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cybersecurity Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="cybersecurity">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/7.webp" class="card-img-top" alt="Cybersecurity Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Cyber Sécurité</h5>
+                    <p class="card-text">Maîtrisez la cybersécurité, apprenez à protéger les systèmes d'information contre les cybermenaces.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">359 DT</span>
+                        <span class="text-muted"><del>399 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Fathi Omri</span>
+                    <span><i class="fa fa-clock text-primary"></i> 100 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEO Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="seo">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/8.webp" class="card-img-top" alt="SEO Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation SEO (Référencement Web)</h5>
+                    <p class="card-text">Optimisez votre site pour les moteurs de recherche, apprenez à générer plus de trafic et à améliorer votre visibilité en ligne.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">179 DT</span>
+                        <span class="text-muted"><del>229 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Nabil Khelifi</span>
+                    <span><i class="fa fa-clock text-primary"></i> 30 Heures</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cloud Computing Course -->
+        <div class="col-lg-4 col-md-6 course-item" data-category="cloud-computing">
+            <div class="card course-card shadow-sm border-0">
+                <img src="img/9.jpg" class="card-img-top" alt="Cloud Computing Course">
+                <div class="card-body">
+                    <h5 class="card-title">Formation Cloud Computing</h5>
+                    <p class="card-text">Apprenez les fondamentaux du cloud computing, l'architecture des services cloud, et les outils pour gérer des infrastructures cloud.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="h5 text-primary">299 DT</span>
+                        <span class="text-muted"><del>349 DT</del></span>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <span><i class="fa fa-user-tie text-primary"></i> Ayoub Dhouib</span>
+                    <span><i class="fa fa-clock text-primary"></i> 60 Heures</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+    
+    <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rades, Tunisie</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+216 12 345 678</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@exemple.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Liens rapides</h4>
+                    <a class="btn btn-link" href="contact.html">Contact</a>
+                    <a class="btn btn-link" href="courses.html">Cours</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <a href="#" class="btn btn-primary btn-lg btn-lg-square back-to-top" role="button" aria-label="Back to top">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    </a>
+    
+    
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
